@@ -15,7 +15,7 @@ var IsLogin= true
         setContentView(R.layout.activity_main)
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        Toast.makeText(applicationContext, "onCreateOptionsMenu", Toast.LENGTH_SHORT).show()
+//        Toast.makeText(applicationContext, "onCreateOptionsMenu", Toast.LENGTH_SHORT).show()
         menuInflater.inflate(R.menu.menu,menu)
         return true
     }
